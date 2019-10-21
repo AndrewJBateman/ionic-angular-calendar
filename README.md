@@ -1,6 +1,6 @@
-# Ionic Angular Explorer
+# Ionic Angular Dragdrop
 
-App to open a locally-stored Comma Separated Values (CSV) file and allow it to be modified and saved/shared via a social media plugin if using a mobile or as a xls file if using a PC. This is another great tutorial from [Simon Grimm of the IonicAcademy, Youtube video 'Ionic Native File Explorer'](https://www.youtube.com/watch?v=pDqG3iYDdM0&t=141s).
+App to open a locally-stored Comma Separated Values (CSV) file and allow it to be modified and saved/shared via a social media plugin if using a mobile or as a xls file if using a PC. This is another great tutorial from [Simon Grimm of the IonicAcademy, Youtube video 'How to Use Angular Drag & Drop with Ionic 4'](https://www.youtube.com/watch?v=bU3tk2GHx3c).
 
 ## Table of contents
 
@@ -15,11 +15,7 @@ App to open a locally-stored Comma Separated Values (CSV) file and allow it to b
 
 ## General info
 
-* Includes 'export' button top left to save the file to social media etc.
-
-* The **Cordova-plugin-file** plugin implements a File API allowing read/write access to files stored on the device.
-
-* The **cordova-plugin-x-socialsharing** shares text, files, images and links via social networks, sms and email.
+* f
 
 ## Screenshots
 
@@ -30,10 +26,6 @@ App to open a locally-stored Comma Separated Values (CSV) file and allow it to b
 * [Ionic v5.15.0](https://ionicframework.com/)
 * [Ionic/angular v4.7.1](https://ionicframework.com/)
 * [Angular v8.1.2](https://angular.io/)
-* [cordova-plugin-file v6.0.2](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-file/)
-* [cordova-plugin-x-socialsharing v5.6.0](https://ionicframework.com/docs/native/social-sharing)
-* [mholt: Fast and powerful CSV (delimited text) parser - github link](https://github.com/mholt/PapaParse)
-* [ngx-papaparse v3.0.4 (latest is 4.0.4)](https://github.com/alberthaff/ngx-papaparse) & [Albert Haff website](https://alberthaff.dk/projects/ngx-papaparse/docs/v3)
 
 ## Setup
 
