@@ -1,6 +1,6 @@
-# Ionic Angular Dragdrop
+# Ionic Angular Calendar
 
-App to open a locally-stored Comma Separated Values (CSV) file and allow it to be modified and saved/shared via a social media plugin if using a mobile or as a xls file if using a PC. This is another great tutorial from [Simon Grimm of the IonicAcademy, Youtube video 'How to Use Angular Drag & Drop with Ionic 4'](https://www.youtube.com/watch?v=bU3tk2GHx3c).
+App to show an Ionic calendar. This is another great tutorial from [Simon Grimm of the IonicAcademy, Youtube video 'How to Build an Ionic 4 Calendar App'](https://www.youtube.com/watch?v=uWhfwhN5IZc&t=643s).
 
 ## Table of contents
 
@@ -15,17 +15,18 @@ App to open a locally-stored Comma Separated Values (CSV) file and allow it to b
 
 ## General info
 
-* f
+* Uses the [ionic2-calendar](https://www.npmjs.com/package/ionic2-calendar) package to display events input by the user.
 
 ## Screenshots
 
-![screenshot](./img/home_csv.png)
+![screenshot](./img/.png)
 
 ## Technologies
 
-* [Ionic v5.15.0](https://ionicframework.com/)
-* [Ionic/angular v4.7.1](https://ionicframework.com/)
-* [Angular v8.1.2](https://angular.io/)
+* [Ionic v4.20.0](https://ionicframework.com/)
+* [Ionic/angular v4.11.1](https://ionicframework.com/)
+* [Angular v8.3.12](https://angular.io/)
+* [ionic2-calendar v0.5.7](https://www.npmjs.com/package/ionic2-calendar)
 
 ## Setup
 
@@ -35,34 +36,27 @@ App to open a locally-stored Comma Separated Values (CSV) file and allow it to b
 
 ## Code Examples
 
-* code from Cordova plugin to open a file on a mobile device file system with its default application
+* tba
 
 ```typescript
-// parse data asynchronously as per papa parse documentation.
-this.papa.parse(csvData, {
-    complete: parsedData => {
-    this.headerRow = parsedData.data.splice(0, 1)[0];
-    this.csvData = parsedData.data;
-    console.log('data array: ', this.csvData);
-    }
-});
+
 ```
 
 ## Features
 
-* cvs file access and editing.
+* tba.
 
 ## Status & To-do list
 
-* Status: Code complete and working, tested using ionic server and Ionic devapp.
+* Status: Code incomplete. @angular/common error to be resolved.
 
-* To-do: use as part of my own Ionic apps.
+* To-do: fix error, complete code, test
 
 ## Inspiration
 
-[Simon Grimm IonicAcademy Youtube video 'Ionic Native File Explorer'](https://www.youtube.com/watch?v=tyZjicNtbyk)
+* [Simon Grimm of the IonicAcademy, Youtube video 'How to Build an Ionic 4 Calendar App'](https://www.youtube.com/watch?v=uWhfwhN5IZc&t=643s).
 
-[Written version of tutorial from Devtactic website: How to Import & Export CSV Data using Papa Parse with Ionic](https://devdactic.com/csv-data-papa-parse-ionic/)
+* [Written version of tutorial from Devtactic website: How to Build an Ionic 4 Calendar App](https://devdactic.com/ionic-4-calendar-app/)
 
 ## Contact
 
