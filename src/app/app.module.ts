@@ -1,33 +1,37 @@
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ErrorHandler, NgModule } from '@angular/core';
-import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-import { SplashScreen } from '@ionic-native/splash-screen';
-import { StatusBar } from '@ionic-native/status-bar';
+import { RouteReuseStrategy } from '@angular/router';
 
-import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
+import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
+import { StatusBar } from '@ionic-native/status-bar/ngx';
 
+import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 import { NgCalendarModule  } from 'ionic2-calendar';
 
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+import { environment } from 'src/environments/environment';
+
 @NgModule({
-	declarations: [
-		MyApp,
-		HomePage
-	],
+	declarations: [AppComponent],
+	entryComponents: [],
 	imports: [
-		NgCalendarModule,
 		BrowserModule,
-		IonicModule.forRoot(MyApp)
-	],
-	bootstrap: [IonicApp],
-	entryComponents: [
-		MyApp,
-		HomePage
+		IonicModule.forRoot(),
+		AppRoutingModule,
+		NgCalendarModule,
+		AngularFireModule.initializeApp(environment.firebase),
+		AngularFirestoreModule,
+		AngularFireAuthModule
 	],
 	providers: [
 		StatusBar,
 		SplashScreen,
-		{provide: ErrorHandler, useClass: IonicErrorHandler}
-	]
+		{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+	],
+	bootstrap: [AppComponent]
 })
 export class AppModule {}

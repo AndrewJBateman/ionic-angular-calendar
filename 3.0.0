@@ -1,8 +1,0 @@
-
-> fsevents@1.2.9 install C:\Users\Andrew\code\code-uptodate\ionic-angular-calendar\node_modules\fsevents
-> node install
-
-+ https-proxy-agent@3.0.0
-added 67 packages from 26 contributors, updated 1 package and audited 10088 packages in 20.015s
-found 5 vulnerabilities (1 low, 4 high)
-  run `npm audit fix` to fix them, or `npm audit` for details

@@ -1,6 +1,6 @@
 # Ionic Angular Calendar
 
-App to show an Ionic calendar. This is another great tutorial from [Simon Grimm of the IonicAcademy, Youtube video 'How to Build an Ionic 4 Calendar App'](https://www.youtube.com/watch?v=uWhfwhN5IZc&t=643s).
+App to show an Ionic calendar. This is another great tutorial from [Jameson Saunders of JamiBot, Youtube video 'Ionic 4 Custom Calendar Tutorial'](https://www.youtube.com/watch?v=SYz-tH3XOF8&t=766s).
 
 ## Table of contents
 
@@ -23,10 +23,11 @@ App to show an Ionic calendar. This is another great tutorial from [Simon Grimm 
 
 ## Technologies
 
-* [Ionic v4.20.0](https://ionicframework.com/)
+* [Ionic v5.0.0](https://ionicframework.com/)
 * [Ionic/angular v4.11.1](https://ionicframework.com/)
-* [Angular v8.3.12](https://angular.io/)
+* [Angular v8.1.2](https://angular.io/)
 * [ionic2-calendar v0.5.7](https://www.npmjs.com/package/ionic2-calendar)
+* [AngularFire2 v5.2.1](https://github.com/angular/angularfire/blob/master/docs/ionic/v3.md) for Google Firebase Database connection
 
 ## Setup
 
@@ -48,15 +49,15 @@ App to show an Ionic calendar. This is another great tutorial from [Simon Grimm 
 
 ## Status & To-do list
 
-* Status: Code incomplete. @angular/common error to be resolved.
+* Status: Working basic calendar. Code incomplete.
 
-* To-do: fix error, complete code, test
+* To-do: complete code, test
 
 ## Inspiration
 
-* [Simon Grimm of the IonicAcademy, Youtube video 'How to Build an Ionic 4 Calendar App'](https://www.youtube.com/watch?v=uWhfwhN5IZc&t=643s).
+* [Jameson Saunders of JamiBot, Youtube video 'Ionic 4 Custom Calendar Tutorial'](https://www.youtube.com/watch?v=SYz-tH3XOF8&t=766s).
 
-* [Written version of tutorial from Devtactic website: How to Build an Ionic 4 Calendar App](https://devdactic.com/ionic-4-calendar-app/)
+* [Written version of tutorial from Devtactic website: Ionic 4 Custom Calendar Tutorial](https://blog.jamibot.com/ionic-4-custom-calendar)
 
 ## Contact
 
