@@ -14,13 +14,36 @@ export class HomePage {
 		mode: 'month',
 		currentDate: new Date()
 	};
+	selectedDate = new Date();
 
 	constructor(private db: AngularFirestore) {
-
+		this.db.collection(`events`).snapshotChanges().subscribe(colSnap => {
+			this.eventSource = [];
+			colSnap.forEach(snap => {
+				const event: any = snap.payload.doc.data();
+				event.id = snap.payload.doc.id;
+				event.startTime = event.startTime.toDate();
+				event.endTime = event.endTime.toDate();
+				console.log(event);
+				this.eventSource.push(event);
+			});
+		});
 	}
 
 	addNewEvent() {
+		const start = this.selectedDate;
+		const end = this.selectedDate;
+		end.setMinutes(end.getMinutes() + 60);
 
+    // event object created to include semi-random title
+		const event = {
+			title: 'Event #' + start.getMinutes(),
+			startTime: start,
+			endTime: end,
+			allDay: false
+		};
+
+		this.db.collection('events').add(event);
 	}
 
 	onViewTitleChanged(title) {
@@ -34,7 +57,7 @@ export class HomePage {
 	onTimeSelected(ev) {
 		console.log('Selected time: ' + ev.selectedTime + ', hasEvents: ' +
 			(ev.events !== undefined && ev.events.length !== 0) + ', disabled: ' + ev.disabled);
-		// this.selectedDate = ev.selectedTime;
+		this.selectedDate = ev.selectedTime;
 	}
 
 	onCurrentDateChanged(event: Date) {

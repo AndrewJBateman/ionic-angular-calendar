@@ -19,7 +19,7 @@ App to show an Ionic calendar. This is another great tutorial from [Jameson Saun
 
 ## Screenshots
 
-![screenshot](./img/.png)
+![screenshot](./img/calendar.png)
 
 ## Technologies
 
@@ -27,7 +27,7 @@ App to show an Ionic calendar. This is another great tutorial from [Jameson Saun
 * [Ionic/angular v4.11.1](https://ionicframework.com/)
 * [Angular v8.1.2](https://angular.io/)
 * [ionic2-calendar v0.5.7](https://www.npmjs.com/package/ionic2-calendar)
-* [AngularFire2 v5.2.1](https://github.com/angular/angularfire/blob/master/docs/ionic/v3.md) for Google Firebase Database connection
+* [AngularFire2 v5.2.1](https://github.com/angular/angularfire/blob/master/docs/ionic/v3.md) for Google Firebase Database connection.
 
 ## Setup
 
@@ -37,27 +37,42 @@ App to show an Ionic calendar. This is another great tutorial from [Jameson Saun
 
 ## Code Examples
 
-* tba
+* function to add a new event - including start and end time. Title is derived from seconds and is intended to create semi-random data.
 
 ```typescript
+  addNewEvent() {
+    const start = this.selectedDate;
+    const end = this.selectedDate;
+    end.setMinutes(end.getMinutes() + 60);
 
+    const event = {
+      title: 'Event #' + start.getMinutes(),
+      startTime: start,
+      endTime: end,
+      allDay: false
+    };
+
+    this.db.collection('events').add(event);
+  }
 ```
 
 ## Features
 
-* tba.
+* Google Firebase storage of calendar events. Data is retrieved from Firebase in the constructor function at the beginning of the page lifecycle.
 
 ## Status & To-do list
 
-* Status: Working basic calendar. Code incomplete.
+* Status: Working basic calendar.
 
-* To-do: complete code, test
+* To-do: A lot more complexity can be added to this calendar app.
 
 ## Inspiration
 
 * [Jameson Saunders of JamiBot, Youtube video 'Ionic 4 Custom Calendar Tutorial'](https://www.youtube.com/watch?v=SYz-tH3XOF8&t=766s).
 
-* [Written version of tutorial from Devtactic website: Ionic 4 Custom Calendar Tutorial](https://blog.jamibot.com/ionic-4-custom-calendar)
+* [Written version of tutorial from Devtactic website: Ionic 4 Custom Calendar Tutorial](https://blog.jamibot.com/ionic-4-custom-calendar).
+
+* [Ionic2-Calendar github repo](https://github.com/twinssbc/Ionic2-Calendar), includes [demo project](https://github.com/twinssbc/Ionic2-Calendar/tree/v5/demo).
 
 ## Contact
 

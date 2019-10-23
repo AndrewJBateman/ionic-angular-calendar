@@ -1,28 +1,25 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Ionic Calendar
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>
-      If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.
-    </p>
+    <ion-button (click)="addNewEvent()">Add New Event</ion-button>
 
     <calendar [eventSource]="eventSource"
       [calendarMode]="calendar.mode"
       [currentDate]="calendar.currentDate"
       (onCurrentDateChanged)="onCurrentDateChanged($event)"
-      (onRangeChanged)="reloadSource(startTime, endTime)"
       (onEventSelected)="onEventSelected($event)"
       (onTitleChanged)="onViewTitleChanged($event)"
       (onTimeSelected)="onTimeSelected($event)"
       step="30">
         
     </calendar>
+  
   </div>
 </ion-content>
