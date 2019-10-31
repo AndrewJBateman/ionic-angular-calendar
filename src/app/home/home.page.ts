@@ -35,7 +35,7 @@ export class HomePage {
 		const end = this.selectedDate;
 		end.setMinutes(end.getMinutes() + 60);
 
-    // event object created to include semi-random title
+		// event object created to include semi-random title
 		const event = {
 			title: 'Event #' + start.getMinutes(),
 			startTime: start,

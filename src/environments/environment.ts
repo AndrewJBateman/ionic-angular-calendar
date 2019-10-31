@@ -3,16 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  firebase: {
-    apiKey: "AIzaSyBKiiqzKnmCSey8NvYg-1F3_bTqr4CjKU0",
-    authDomain: "ionic-angular-calendar.firebaseapp.com",
-    databaseURL: "https://ionic-angular-calendar.firebaseio.com",
-    projectId: "ionic-angular-calendar",
-    storageBucket: "ionic-angular-calendar.appspot.com",
-    messagingSenderId: "632754154053",
-    appId: "1:632754154053:web:b22e430c57f46b9858d12c"
-  }
+	production: false,
+	firebase: {
+
+	}
 };
 
 /*

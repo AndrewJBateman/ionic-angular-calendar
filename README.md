@@ -17,6 +17,8 @@ App to show an Ionic calendar. This is another great tutorial from [Jameson Saun
 
 * Uses the [ionic2-calendar](https://www.npmjs.com/package/ionic2-calendar) package to display events input by the user.
 
+* This app is set up to use a Google Firebase backend to store calender entries.
+
 ## Screenshots
 
 ![screenshot](./img/calendar.png)
@@ -31,6 +33,7 @@ App to show an Ionic calendar. This is another great tutorial from [Jameson Saun
 
 ## Setup
 
+* Create a Google Firebase database and add access credentials to environment.ts
 * To start the server on _localhost://8100_ type: 'ionic serve'
 * To start the server on a mobile using Ionic devapp and connected via wifi, type: 'ionic serve --devapp'
 * The Ionic DevApp was installed on an Android device from the Google Play app store.
@@ -60,19 +63,21 @@ App to show an Ionic calendar. This is another great tutorial from [Jameson Saun
 
 * Google Firebase storage of calendar events. Data is retrieved from Firebase in the constructor function at the beginning of the page lifecycle.
 
+* Calender date format can be changed using options from the ionic2-calender.
+
 ## Status & To-do list
 
 * Status: Working basic calendar.
 
-* To-do: A lot more complexity can be added to this calendar app.
+* To-do: A lot more complexity can be added to this calendar app. The option to change the view from day to week to month would be useful - as shown in the [demo project](https://github.com/twinssbc/Ionic2-Calendar/tree/v5/demo).
 
 ## Inspiration
 
 * [Jameson Saunders of JamiBot, Youtube video 'Ionic 4 Custom Calendar Tutorial'](https://www.youtube.com/watch?v=SYz-tH3XOF8&t=766s).
 
-* [Written version of tutorial from Devtactic website: Ionic 4 Custom Calendar Tutorial](https://blog.jamibot.com/ionic-4-custom-calendar).
+* [Ionic2-Calendar github repo](https://github.com/twinssbc/Ionic2-Calendar)
 
-* [Ionic2-Calendar github repo](https://github.com/twinssbc/Ionic2-Calendar), includes [demo project](https://github.com/twinssbc/Ionic2-Calendar/tree/v5/demo).
+* [demo project](https://github.com/twinssbc/Ionic2-Calendar/tree/v5/demo).
 
 ## Contact
 
