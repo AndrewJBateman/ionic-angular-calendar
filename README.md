@@ -28,9 +28,9 @@
 ## :signal_strength: Technologies
 
 * [Ionic v5](https://ionicframework.com/)
-* [Ionic/angular v4](https://ionicframework.com/)
-* [Angular v8](https://angular.io/)
-* [ionic2-calendar v0.5.7](https://www.npmjs.com/package/ionic2-calendar)
+* [Ionic/angular v5](https://ionicframework.com/)
+* [Angular v10](https://angular.io/)
+* [ionic2-calendar v0.6.6](https://www.npmjs.com/package/ionic2-calendar)
 * [AngularFire2 v5](https://github.com/angular/angularfire/blob/master/docs/ionic/v3.md) for Google Firebase Database connection.
 
 ## :floppy_disk: Setup
