@@ -20,6 +20,7 @@
 
 * Uses the [ionic2-calendar](https://www.npmjs.com/package/ionic2-calendar) package to display events input by the user.
 * This app is set up to use a Google Firebase backend to store calender entries.
+* Use current versions. If updating then firebase config has to be changed.
 
 ## :camera: Screenshots
 
