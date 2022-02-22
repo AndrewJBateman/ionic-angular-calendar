@@ -1,6 +1,6 @@
 # :zap: Ionic Angular Calendar
 
-* App to show an Ionic calendar. This is another great tutorial from [Jameson Saunders of JamiBot, Youtube video 'Ionic 4 Custom Calendar Tutorial'](https://www.youtube.com/watch?v=SYz-tH3XOF8&t=766s).
+* App to show an Ionic calendar with events stored in Firebase. This is another great tutorial from [Jameson Saunders of JamiBot, Youtube video 'Ionic 4 Custom Calendar Tutorial'](https://www.youtube.com/watch?v=SYz-tH3XOF8&t=766s) that I have updated.
 
 ## :page_facing_up: Table of contents
 
@@ -14,13 +14,13 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
 
 * Uses the [ionic2-calendar](https://www.npmjs.com/package/ionic2-calendar) package to display events input by the user.
 * This app is set up to use a Google Firebase backend to store calender entries.
-* Use current versions. If updating then firebase config has to be changed.
 
 ## :camera: Screenshots
 
@@ -28,11 +28,11 @@
 
 ## :signal_strength: Technologies
 
-* [Ionic v5](https://ionicframework.com/)
-* [Ionic/angular v5](https://ionicframework.com/)
-* [Angular v10](https://angular.io/)
-* [ionic2-calendar v0.6.6](https://www.npmjs.com/package/ionic2-calendar)
-* [AngularFire2 v5](https://github.com/angular/angularfire/blob/master/docs/ionic/v3.md) for Google Firebase Database connection.
+* [Ionic v6](https://ionicframework.com/)
+* [Ionic/angular v6](https://ionicframework.com/)
+* [Angular v13](https://angular.io/)
+* [ionic2-calendar v0.6.9](https://www.npmjs.com/package/ionic2-calendar)
+* [Angular/Fire v7](https://www.npmjs.com/package/@angular/fire) for Google Firebase Database connection.
 
 ## :floppy_disk: Setup
 
@@ -78,6 +78,10 @@
 * [Ionic2-Calendar github repo](https://github.com/twinssbc/Ionic2-Calendar)
 * [demo project](https://github.com/twinssbc/Ionic2-Calendar/tree/v5/demo).
 
+## :file_folder: License
+
+* N/A
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
