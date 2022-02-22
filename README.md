@@ -2,6 +2,11 @@
 
 * App to show an Ionic calendar with events stored in Firebase. This is another great tutorial from [Jameson Saunders of JamiBot, Youtube video 'Ionic 4 Custom Calendar Tutorial'](https://www.youtube.com/watch?v=SYz-tH3XOF8&t=766s) that I have updated.
 
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-angular-calendar?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/ionic-angular-calendar?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/ionic-angular-calendar?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/ionic-angular-calendar?style=plastic)
+
 ## :page_facing_up: Table of contents
 
 * [:zap: Ionic Angular Calendar](#zap-ionic-angular-calendar)
