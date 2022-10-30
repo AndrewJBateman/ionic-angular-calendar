@@ -35,7 +35,7 @@
 
 * [Ionic v6](https://ionicframework.com/)
 * [Ionic/angular v6](https://ionicframework.com/)
-* [Angular v13](https://angular.io/)
+* [Angular v14](https://angular.io/)
 * [ionic2-calendar v0.6.9](https://www.npmjs.com/package/ionic2-calendar)
 * [Angular/Fire v7](https://www.npmjs.com/package/@angular/fire) for Google Firebase Database connection.
 
