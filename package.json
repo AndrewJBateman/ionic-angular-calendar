@@ -24,7 +24,7 @@
     "@ionic-native/core": "^5.36.0",
     "@ionic-native/splash-screen": "^5.36.0",
     "@ionic-native/status-bar": "^5.36.0",
-    "@ionic/angular": "^6.0.8",
+    "@ionic/angular": "^6.3.3",
     "core-js": "^3.21.1",
     "firebase": "^9.6.7",
     "ionic2-calendar": "^0.6.9",
@@ -32,7 +32,7 @@
     "rxjs": "^7.5.4",
     "rxjs-compat": "^6.6.7",
     "tslib": "^2.3.1",
-    "zone.js": "~0.11.4"
+    "zone.js": "^0.11.8"
   },
   "devDependencies": {
     "@angular-devkit/architect": "~0.1302.4",
